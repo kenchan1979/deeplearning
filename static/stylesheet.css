@@ -1,0 +1,135 @@
+@import url(sanitize.css);
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+body {
+    background-color: #f0f0f0;
+    padding: 10px;
+    font-size: 20px;
+    color: #666;
+}
+
+.container {
+    /*max-width: 800px;-->*/
+    float: left;
+    margin: 0 10px 10px 0;
+    transition-property: opacity;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    background-color: #422814;
+    padding: 10px;
+    color: #fff;
+}
+
+/*.container img {*/
+
+
+
+header h1 {
+    margin: 0;
+    font-size: 35px;
+    font-weight: normal;
+    text-align: center;
+    font-family: 'Sriracha', cursive;
+}
+
+.description {
+    clear: left;
+}
+
+.description img {
+    float: left;
+    margin: 0 10px 10px 0;
+    transition-property: opacity;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    width: 100%;
+    height: 50%;
+}
+
+/*.description img:hover {
+    opacity: .5;
+}*/
+
+/*.information h1 {
+    font-size: 30px;
+    margin: 0 10px 10px 0;
+    float: left;
+}*/
+
+.information .type {
+    display: inline;
+    background-color: #E35A4D;
+    padding: 3px 5px;
+    font-size: 80%;
+    color: #fff;
+}
+
+.content {
+    background-color: rgb(255, 255, 243);
+    padding: 5px;
+}
+
+
+.clearfix:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+a {
+    color: #666;
+}
+
+footer {
+    text-align: center;
+    font-size: 80%;
+} 
+.btn {
+    width: 20%;
+    background-color:mediumseagreen;
+    color: white;
+    padding :10px;
+    border: 0;
+    border-radius: 30px;
+    box-shadow: 0,0,8px rgba(0, 0, 0, .4);
+    font-size: 15px;
+}
+.file_choose{
+    width: 25%;
+    background-color:rgb(94, 89, 60);
+    color: white;
+    padding :10px;
+    border: 0;
+    border-radius: 30px;
+    box-shadow: 0,0,8px rgba(0, 0, 0, .4);
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    .description img {
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+
+    header {
+        padding: 5px;
+    }
+    header h1 {
+        font-size: 12px;
+    }
+    .description h1 {
+        font-size: 14px;
+    }
+    .songs li {
+        float: none;
+        width: inherit;
+    }
+}
