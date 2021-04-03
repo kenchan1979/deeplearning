@@ -29,8 +29,8 @@ def upload_file():
             flash('ファイルがありません')
             return redirect(request.url)
         file = request.files['file']
-        if file.filename == '':
-            flash('ファイルがありません')
+        if len(file.filename) == 0:
+            #flash('ファイルがありません')
             return redirect(request.url)
         if file and allowed_file(file.filename):
             filename = secure_filename(file.filename)
