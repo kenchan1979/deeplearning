@@ -6,6 +6,8 @@ Name is 'castle classification'.
 
 # Demo
 
+<img width="961" alt="Screen Shot 2022-03-15 at 23 46 24" src="https://user-images.githubusercontent.com/80375718/158414470-9dce5395-7283-434c-8fcb-4f271c33ba27.png">
+
 # Features
 
 You can submit your favorite castle.
@@ -20,9 +22,9 @@ If you can use web browser like google chrome,it's available.
 
 # Installation
 
-Execute following command. 
+Execute following command.  
 In Windows's case, on command prompt.  
-In macOS's case, on terminal.
+In macOS's case, on terminal.  
 
 First of all, you need to import libraries as below.
 
@@ -44,16 +46,17 @@ cd castle_classification
 
 Then when you execute python file, it's available as below.
 ```bush
-python file.name
+python file
 ```
 And then execute from First procedure to Fifth one.
 
-First 'scrape.py'
-Second 'augmentation.py'
-Third 'learning.py'
-Fourth 'train_eval.py'
-Fifth 'main.py'
-Then when http://127.0.0.1:5000/ appears,you can click this.
+First 'scrape.py'  
+Second 'augmentation.py'  
+Third 'learning.py'  
+Fourth 'train_eval.py'  
+Fifth 'main.py'  
+
+Then when http://127.0.0.1:5000/ appears,you can click this.  
 
 # Usage
 
@@ -62,7 +65,7 @@ And then type of castle you chose will appear.
 
 # Auther
 
-Name: kens
+Name: kens  
 Email: kensuga0215@gmail.com
 
 # License
