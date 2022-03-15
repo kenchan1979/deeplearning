@@ -46,15 +46,21 @@ cd castle_classification
 
 Then when you execute python file, it's available as below.
 ```bush
-python file
+python 'file'  
 ```
-And then execute from First procedure to Fifth one.
+And then execute from First process to Sixth one.
 
-First 'scrape.py'  
-Second 'augmentation.py'  
-Third 'learning.py'  
-Fourth 'train_eval.py'  
-Fifth 'main.py'  
+First: 'scrape.py'  
+
+Second: 'augmentation.py' (This process is augmentation of number of images by changing angle, resize etc.)  
+
+Third:  After Second process, if some images are almost same, you need to remove those same pictures from  folders of "Japanese_castle_images","Europe_castle_images" and "Chinese_castle_images" with your hands.  
+
+Fourth: 'learning.py'  
+
+Fifth: 'train_eval.py'  
+
+Sixth: 'main.py'  
 
 Then when http://127.0.0.1:5000/ appears,you can click this.  
 
@@ -65,7 +71,7 @@ And then type of castle you chose will appear.
 
 # Auther
 
-Name: kens who belonged to Aidemy inc as student before.
+Name: kens who belonged to Aidemy inc as student before.  
 Email: kensuga0215@gmail.com
 
 # License
