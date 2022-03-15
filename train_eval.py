@@ -7,7 +7,6 @@ import numpy as np
 import tensorflow
 import matplotlib.pyplot as plt
 
-
 classes = ["Japanese_castle","Europe_castle","Chinese_castle"]
 num_classes = len(classes)
 image_size = 50
@@ -22,7 +21,7 @@ def main():
     model = model_train(X_train, y_train,X_test,y_test)
     model_eval(model, X_test, y_test)
 
-def model_train(X, y,X_test,y_test):
+def model_train(X, y, X_test,y_test):
     model = Sequential()
     model.add(Conv2D(32,(3,3), padding='same',input_shape=X.shape[1:]))
     model.add(Activation('relu'))

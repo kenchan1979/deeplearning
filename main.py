@@ -20,7 +20,7 @@ app = Flask(__name__)
 def allowed_file(filename):
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
 
-model = load_model('./castle_cnn-4.h5')#学習済みモデルをロード
+model = load_model('castle_cnn.h5')#学習済みモデルをロード
 
 
 @app.route('/', methods=['GET', 'POST'])
@@ -53,5 +53,6 @@ def upload_file():
 
 
 if __name__ == "__main__":
-    port = int(os.environ.get('PORT', 8080))
-    app.run(host ='0.0.0.0',port = port)
+    # port = int(os.environ.get('PORT', 8080))
+    # app.run(host ='0.0.0.0',port = port)
+    app.run(debug=True)

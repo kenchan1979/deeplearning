@@ -67,8 +67,6 @@ def save_base64_image(data, file_path):
     with open(file_path, "wb") as f:
         f.write(img)
 
-# from google.colab import drive
-# drive.mount('/content/drive')
 import os
 import re
 
