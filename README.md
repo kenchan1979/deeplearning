@@ -65,7 +65,7 @@ And then type of castle you chose will appear.
 
 # Auther
 
-Name: kens  
+Name: kens who belonged to Aidemy inc as student before.
 Email: kensuga0215@gmail.com
 
 # License
